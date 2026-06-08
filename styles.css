@@ -11,6 +11,7 @@ nav {
     display: flex;
 }
 
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -19,6 +20,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+}
+
+.purple {
+    color: #7342d6;
 }
 
 .logo {
@@ -42,7 +47,23 @@ li {
     padding: 8px;
 }
 
+.nav__link:hover {
+    text-decoration: underline;
+}
+
 .nav__link--primary {
     border: 2px solid #7342d6;
     border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+#landing {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+header { 
+    height: calc(100vh-80px);
 }
