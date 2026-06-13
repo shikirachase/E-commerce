@@ -141,6 +141,8 @@ button:active {
     font-size: 20px;
     border-radius: 4px;
     border: none;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .header__img--wrapper {
