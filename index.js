@@ -1,1 +1,1 @@
-console.log('Shikira')
+console.log('Shikira');
